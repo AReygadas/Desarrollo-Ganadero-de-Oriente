@@ -1,0 +1,133 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --vt-c-white: #221f1f;
+  --vt-c-white-soft: #221c1c;
+  --vt-c-white-mute: #222020;
+
+  --vt-c-black: #181818;
+  --vt-c-black-soft: #222222;
+  --vt-c-black-mute: #282828;
+
+  --vt-c-indigo: #2c3e50;
+
+  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+  --vt-c-text-light-1: var(--vt-c-indigo);
+  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
+  --vt-c-text-dark-1: var(--vt-c-white);
+  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+  --background-A:#F4F5F7;
+  --background-B:#ffffff;
+  --background-C:#5e5e5e;
+  --degrade-A:#e76f6f;
+  --degrade-B:#5c0202;
+  
+  --color-text-A:rgb(49, 49, 49);
+    
+}
+
+/* semantic color variables for this project */
+/* :root {
+  --color-background: var(--vt-c-white);
+  --color-background-soft: var(--vt-c-white-soft);
+  --color-background-mute: var(--vt-c-white-mute);
+  --color-border: var(--vt-c-divider-light-2);
+  --color-border-hover: var(--vt-c-divider-light-1);
+  --color-heading: var(--vt-c-text-light-1);
+  --color-text: var(--vt-c-text-light-1);
+  --section-gap: 160px;
+} */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--vt-c-black);
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
+
+    --color-border: var(--vt-c-divider-dark-2);
+    --color-border-hover: var(--vt-c-divider-dark-1);
+
+    --color-heading: var(--vt-c-text-dark-1);
+    --color-text: var(--vt-c-text-dark-2);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  color: var(--color-text);
+  /* background-image: url(../assets//Background.jpg);
+     background-size: cover;
+   */
+   /* background: linear-gradient(41deg, rgba(2,0,36,1) 0%, rgba(121,28,9,1) 24%, rgba(89,0,255,1) 65%, rgba(0,0,1,1) 100%); */
+  /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
+  /* background: var(--color-background); */
+  background-color:var(--background-B);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+  Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.dg1{ background: linear-gradient(220.55deg, #A531DC 0%, #4300B1 100%);}
+.dg2{ background:  linear-gradient(220.55deg, #FF896D 0%, #D02020 100%);}
+.dg3{ background: linear-gradient(220.55deg, #3793FF 0%, #0017E4 100%);}
+.dg4{ background: linear-gradient(220.55deg, #FFD439 0%, #FF7A00 100%);}
+.dg5{ background: linear-gradient(220.55deg, #7CF7FF 0%, #4B73FF 100%);}
+.dg6{ background: linear-gradient(220.55deg, #FFED46 0%, #FF7EC7 100%);}
+.dg7{ background: linear-gradient(220.55deg, #8FFF85 0%, #39A0FF 100%);}
+.dg8{ background: linear-gradient(220.55deg, #8A88FB 0%, #D079EE 100%);}
+.dg9{ background: linear-gradient(220.55deg, #EAEAEA 0%, #8B8B8B 100%);}
+.dg10{ background: linear-gradient(220.55deg, #FFEB3A 0%, #4DEF8E 100%);}
+.dg11{ background: linear-gradient(220.55deg, #565656 0%, #181818 100%);}
+.dg12{ background: linear-gradient(220.55deg, #FFBB89 0%, #7B6AE0 100%);}
+.dg13{ background: linear-gradient(220.55deg, #FFF500 0%, #FFB800 100%);}
+.dg14{ background: linear-gradient(220.55deg, #FFEAF6 0%, #FF9DE4 100%);}
+.dg15{ background: linear-gradient(220.55deg, #00B960 0%, #00552C 100%);}
+.dg16{ background: linear-gradient(220.55deg, #FFE6A4 0%, #AD8211 100%);}
+.dg17{ background: linear-gradient(220.55deg, #C5EDF5 0%, #4A879A 100%);}
+.dg18{ background: linear-gradient(220.55deg, #FFF6EB 0%, #DFD1C5 100%);}
+.dg19{ background: linear-gradient(220.55deg, #FF9D7E 0%, #4D6AD0 100%);}
+.dg20{ background: linear-gradient(220.55deg, #DD7BFF 0%, #FF6C6C 100%);}
+.dg21{ background: linear-gradient(220.55deg, #E0FF87 0.01%, #8FB85B 100%);}
+.dg22{ background: linear-gradient(220.55deg, #FFDC99 0%, #FF62C0 100%);}
+.dg23{ background: linear-gradient(220.55deg, #DDE4FF 0%, #8DA2EE 100%);}
+.dg24{ background: linear-gradient(220.55deg, #97E8B5 0%, #5CB67F 100%);}
+.dg25{ background: linear-gradient(220.55deg, #24CFC5 0%, #001C63 100%);}
+.dg26{ background: linear-gradient(220.55deg, #FF3F3F 0%, #063CFF 100%);}
+.dg27{ background: linear-gradient(220.55deg, #5D85A6 0%, #0E2C5E 100%);}
+.dg28{ background: linear-gradient(220.55deg, #DEB5FF 0%, #6F00B3 100%);}
+.dg29{ background: linear-gradient(220.55deg, #FF5EEF 0%, #456EFF 100%);}
+.dg30{ background: linear-gradient(220.55deg, #AFCCCB 0%, #616566 100%);}
+.dg31{ background: linear-gradient(220.55deg, #4063BC 0%, #6B0013 100%);}
+.dg32{ background: linear-gradient(220.55deg, #FFF500 0%, #FF00B8 100%);}
+.dg33{ background: linear-gradient(220.55deg, #FF5E98 0%, #0F213E 100%);}
+.dg34{ background: linear-gradient(220.55deg, #FFC328 0%, #E20000 100%);}
+.dg35{ background: linear-gradient(220.55deg, #FFE70B 0%, #27B643 100%);}
+.dg36{ background: linear-gradient(220.55deg, #FFADF7 0%, #B1FF96 100%);}
+.dg37{ background: linear-gradient(220.55deg, #61C695 0%, #133114 100%);}
+.dg38{ background: linear-gradient(220.55deg, #B7DCFF 0%, #FFA4F6 100%);}
+.dg39{ background: linear-gradient(220.55deg, #9F25FF 0%, #FF7A00 100%);}
+.dg40{ background: linear-gradient(220.55deg, #5EE2FF 0%, #00576A 100%);}
+.dg41{ background: linear-gradient(220.55deg, #FF0000 0%, #470000 100%);}
+.dg42{ background: linear-gradient(220.55deg, #4643DF 0%, #0B0A47 100%);}
+.dg43{ background: linear-gradient(220.55deg, #D7003A 0%, #19087E 100%);}
+.dg44{ background: linear-gradient(220.55deg, #FADD76 0%, #9F3311 100%);}
+.dg45{ background: linear-gradient(220.55deg, #00E0EE 0%, #AD00FE 100%);}
+.dg46{ background: linear-gradient(220.55deg, #D0004B 0%, #88069D 100%);}
+.dg47{ background: linear-gradient(220.55deg, #FF8570 0%, #418CB7 100%);}
+.dg48{ background: linear-gradient(220.55deg, #B9A14C 0%, #000000 100%);}
